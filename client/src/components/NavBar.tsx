@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 const NavBar = () => {
 return (
@@ -6,21 +6,21 @@ return (
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <h1 className="text-lg font-bold">My Portfolio</h1>
         <div className="space-x-4">
-          <NavLink to="/" className="hover:underline" end>
+          <Link to="/" className="hover:underline">
             Home
-          </NavLink>
-          <NavLink to="/about" className="hover:underline">
+          </Link>
+          <Link to="/about" className="hover:underline">
             About
-          </NavLink>
-          <NavLink to="/portfolio" className="hover:underline">
+          </Link>
+          <Link to="/portfolio" className="hover:underline">
             Portfolio
-          </NavLink>
-          <NavLink to="/blog" className="hover:underline">
+          </Link>
+          <Link to="/blog" className="hover:underline">
             Blog
-          </NavLink>
-          <NavLink to="/contact" className="hover:underline">
+          </Link>
+          <Link to="/contact" className="hover:underline">
             Contact
-          </NavLink>
+          </Link>
         </div>
       </div>
     </nav>
