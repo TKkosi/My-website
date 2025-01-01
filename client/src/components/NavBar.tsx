@@ -6,7 +6,7 @@ return (
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <h1 className="text-lg font-bold">My Portfolio</h1>
         <div className="space-x-4">
-          {/* <Link to="/" className="hover:underline">
+          <Link to="/" className="hover:underline">
             Home
           </Link>
           <Link to="/about" className="hover:underline">
@@ -20,7 +20,7 @@ return (
           </Link>
           <Link to="/contact" className="hover:underline">
             Contact
-          </Link> */}
+          </Link>
         </div>
       </div>
     </nav>

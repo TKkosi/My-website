@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from '../pages/dashboardPages/Home';
-import About from '../pages/dashboardPages/About';
-import Portfolio from '../pages/dashboardPages/Portfolio';
-import Blog from '../pages/dashboardPages/Blog';
-import Contact from '../pages/dashboardPages/Contact';  
-import NotFound from '../pages/dashboardPages/NotFound';
+import Home from '../pages/Home';
+import About from '../pages/About';
+import Portfolio from '../pages/Portfolio';
+import Blog from '../pages/Blog';
+import Contact from '../pages/Contact';  
+import NotFound from '../pages/NotFound';
 
 const AppRoutes: React.FC = () => {
   return (
