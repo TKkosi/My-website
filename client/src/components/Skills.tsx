@@ -1,33 +1,43 @@
-
+import { BiLogoTypescript } from "react-icons/bi";
+import {FaBootstrap, FaCss3Alt, FaDocker, FaGitAlt, FaGithubSquare, FaHtml5, FaJs, FaNodeJs, FaReact, FaSass} from "react-icons/fa";
+import { GrGraphQl } from "react-icons/gr";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiExpress, SiMongodb, SiNextdotjs, SiPostman } from "react-icons/si";
 
 const Skills = () => {
   const skills = [
-    "JavaScript",
-    "TypeScript",
-    "React.js",
-    "Next.js",
-    "Node.js",
-    "Express.js",
-    "MongoDB",
-    "GraphQL",
-    "Tailwind CSS",
-    "Firebase",
-    "Docker",
-    "Git & GitHub",
+    {name:"JavaScript",icon:<FaJs/>},
+    {name: "TypeScript", icon:<BiLogoTypescript/>},
+    {name: "React.js", icon:<FaReact/>},
+    {name: "Next.js", icon:<SiNextdotjs/>},
+    {name: "Node.js", icon:<FaNodeJs/>},
+    {name: "Express.js", icon:<SiExpress/>},
+    {name: "HTML", icon:<FaHtml5/>},
+    {name: "CSS", icon:<FaCss3Alt/>},
+    {name: "Tailwind CSS", icon:<RiTailwindCssFill/>},
+    {name: "Bootstrap", icon:<FaBootstrap/>},
+    {name: "Sass", icon:<FaSass/>},
+    {name: "MongoDB", icon:<SiMongodb/>},
+    {name:"GraphQL", icon:<GrGraphQl/>},
+    {name:"Docker",icon:<FaDocker/>},
+    {name:"Git",icon:<FaGitAlt/>},
+    {name:"GitHub",icon:<FaGithubSquare/>},
+    {name:"Postman",icon:<SiPostman/>},
   ];
 
   return (
-    <section className="text-center py-20">
-      <h2 className="text-4xl font-bold">
-        My <span className="text-black">Skills</span>
+    <section className="text-center py-16 px-6 md:px-16 lg:px-24 xl:px-32 bg-white font-mono">
+      <h2 className="text-4xl font-bold mb-8">
+        My <span className="text-black font-bold">Skills</span>
       </h2>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-10 px-10">
+      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 mt-8 px-10 justify-center items-center">
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="p-4 border rounded-lg shadow-md bg-gray-900 text-white text-lg font-semibold transition-transform transform hover:scale-105"
+            className="p-6 border-2 rounded-lg text-lg border-black transition-all duration-300 ease-in-out hover:bg-black hover:text-white flex items-center justify-center cursor-pointer"
           >
-            {skill}
+            <div className="text-3xl">{skill.icon}</div>
+            <p className="font-mono">{skill.name}</p>
           </div>
         ))}
       </div>

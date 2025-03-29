@@ -22,7 +22,7 @@ import img1 from "../assets/img1.svg";
 
 const About = () => {
   return (
-    <section className="py-16 px-6 md:px-16 lg:px-24 xl:px-32 bg-white">
+    <section className="py-16 px-6 md:px-16 lg:px-24 xl:px-32 bg-white font-mono">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         {/* Left - Image */}
         <div className="flex justify-center">
