@@ -1,19 +1,19 @@
-// import React from "react";
-// import SkillCard from "./SkillCard";
-// import { FaJs, FaGit, FaSass, FaNodeJs } from "react-icons/fa";
-// import { SiNestjs, SiStorybook, SiSocketdotio } from "react-icons/si";
+
 
 const Skills = () => {
   const skills = [
-    // { icon: <FaGit />, name: "Git" },
-    // { icon: <FaJs />, name: "JavaScript", isActive: true },
-    // { icon: <FaSass />, name: "Sass/Scss" },
-    // { icon: <SiNestjs />, name: "Nest.Js" },
-    // { icon: <SiStorybook />, name: "Storybook" },
-    // { icon: <FaGit />, name: "Git" },
-    // { icon: <SiStorybook />, name: "Storybook" },
-    // { icon: <SiSocketdotio />, name: "Socket.io" },
-    // { icon: <FaSass />, name: "Sass/Scss" },
+    "JavaScript",
+    "TypeScript",
+    "React.js",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "GraphQL",
+    "Tailwind CSS",
+    "Firebase",
+    "Docker",
+    "Git & GitHub",
   ];
 
   return (
@@ -23,7 +23,12 @@ const Skills = () => {
       </h2>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-10 px-10">
         {skills.map((skill, index) => (
-          <SkillCard key={index} icon={skill.icon} name={skill.name} isActive={skill.isActive} />
+          <div
+            key={index}
+            className="p-4 border rounded-lg shadow-md bg-gray-900 text-white text-lg font-semibold transition-transform transform hover:scale-105"
+          >
+            {skill}
+          </div>
         ))}
       </div>
     </section>
@@ -31,3 +36,4 @@ const Skills = () => {
 };
 
 export default Skills;
+
