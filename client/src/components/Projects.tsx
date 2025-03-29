@@ -9,7 +9,7 @@ const projects = [
     title: "Crypto Screener Application",
     description:
       "A web application for tracking real-time cryptocurrency prices and market trends.",
-    image: {img1}, // Replace with actual image path
+    image: img1, // Replace with actual image path
     link: "#",
   },
   {
@@ -17,7 +17,7 @@ const projects = [
     title: "Euphoria – Ecommerce (Apparels) Website Template",
     description:
       "A modern, responsive e-commerce website template designed for apparel brands.",
-    image: "/ecommerce-template.png", // Replace with actual image path
+    image: img1, // Replace with actual image path
     link: "#",
   },
   {
@@ -25,7 +25,7 @@ const projects = [
     title: "Blog Website Template",
     description:
       "A minimal and stylish blog template for sharing articles and content.",
-    image: "/blog-template.png", // Replace with actual image path
+    image: img1, // Replace with actual image path
     link: "#",
   },
 ];
