@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="w-full bg-white shadow-md px-6 md:px-16 lg:px-24 py-4 flex justify-between items-center font-mono fixed top-0 z-50 left-0 right-0 border-b-2 border-gray-200">
+    <nav className="w-full bg-gray-100  shadow-md px-6 md:px-16 lg:px-24 py-4 flex justify-between items-center font-mono fixed top-0 z-50 left-0 right-0 border-b-2 border-gray-200  backdrop-opacity-70 ">
       {/* Left: Logo */}
       <div className="flex items-center space-x-2">
         <span className="text-2xl font-bold">👽</span>
@@ -25,7 +25,8 @@ const Navbar = () => {
       <a
         href="/resume.pdf"
         download
-        className="hidden md:flex items-center space-x-2 bg-black text-white px-4 py-2 rounded-md font-medium"
+        className="hidden md:flex items-center space-x-2 bg-black text-white px-4 py-2 rounded-md font-medium transition duration-300 hover:bg-white hover:text-black border-2 border-black hover:border-white"
+        onClick={() => setIsOpen(false)}
       >
         <span>Resume</span> <FaDownload />
       </a>
