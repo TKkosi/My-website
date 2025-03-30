@@ -46,7 +46,7 @@ const Experience = () => {
         {experiences.map((exp, index) => (
           <div
             key={index}
-            className="bg-gray-900 p-6 rounded-lg shadow-lg flex flex-col md:flex-row items-start md:items-center"
+            className="bg-black border-2 p-6 rounded-lg shadow-lg flex flex-col md:flex-row items-start md:items-center"
           >
             <div className="mr-4">{exp.icon}</div>
             <div className="flex-1">

@@ -1,19 +1,9 @@
-import { useRef } from "react";
-import { motion } from "framer-motion";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import img1 from "../assets/img1.svg"; // Adjust the path as necessary
 
 const projects = [
   {
     id: 1,
-    title: "Crypto Screener Application",
-    description:
-      "A web application for tracking real-time cryptocurrency prices and market trends.",
-    image: img1, // Replace with actual image path
-    link: "#",
-  },
-  {
-    id: 2,
     title: "Euphoria – Ecommerce (Apparels) Website Template",
     description:
       "A modern, responsive e-commerce website template designed for apparel brands.",
@@ -21,7 +11,7 @@ const projects = [
     link: "#",
   },
   {
-    id: 3,
+    id: 2,
     title: "Blog Website Template",
     description:
       "A minimal and stylish blog template for sharing articles and content.",
@@ -29,7 +19,7 @@ const projects = [
     link: "#",
   },
   {
-    id: 4,
+    id: 3,
     title: "Portfolio Website",
     description:
       "A personal portfolio website to showcase projects and skills.",
@@ -39,20 +29,12 @@ const projects = [
 ];
 
 const Projects = () => {
-  const containerRef = useRef(null);
 
   return (
     <section className="py-12 px-6 md:px-16 lg:px-24 xl:px-32 bg-black text-white font-mono">
-      <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
-        My <span className="text-gray-300">Projects</span>
+      <h2 className="text-3xl md:text-4xl font-extralight text-center mb-8">
+        My <span className="text-gray-300 font-extrabold">Projects</span>
       </h2>
-
-      <motion.div
-        ref={containerRef}
-        className="flex overflow-x-scroll hide-scrollbar snap-x snap-mandatory space-x-6"
-        drag="x"
-        dragConstraints={{ left: -600, right: 0 }} // Adjust drag limits
-      >
       <div>
         {projects.map((project) => (
           <div
@@ -78,7 +60,6 @@ const Projects = () => {
           </div>
         ))}
       </div>
-      </motion.div>
     </section>
   );
 };

@@ -17,9 +17,10 @@ const Hero = () => {
         </h2>
 
         <p className="text-gray-600 text-sm md:text-base mt-4 leading-relaxed max-w-md">
-          I'm Ekwuno kosisochukwu. Lorem Ipsum is simply dummy text of the printing and
-          typesetting industry. Lorem Ipsum has been the industry's standard
-          dummy text ever since the 1500s.
+        I'm <span className="font-semibold">Ekwuno Kosisochukwu</span>, a passionate <span className="font-bold">Full-Stack Developer</span> dedicated to building innovative and scalable digital solutions. 
+        With expertise in <span className="font-extrabold">JavaScript, React, Node.js, and MongoDB</span>,
+        I thrive on solving complex problems and creating seamless user experiences. Always learning, 
+        always evolving—driven by a commitment to excellence in software development. 🚀
         </p>
 
         {/* Social Icons */}

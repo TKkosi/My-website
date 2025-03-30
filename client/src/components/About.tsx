@@ -39,20 +39,13 @@ const About = () => {
             About <span className="text-black">Me</span>
           </h2>
           <p className="text-gray-600 mt-4 leading-relaxed">
-            I'm a passionate, self-motivated designer and full-stack developer
-            specializing in **React.js & Node.js**. I love bringing digital
-            products to life with **user experience, UI design, and performance**
-            in mind.
+          I am a passionate Full-Stack Developer with experience in designing and implementing scalable web applications. With a strong foundation in JavaScript, React, Node.js, and MongoDB, I thrive in solving complex problems and building high-performance solutions.
           </p>
           <p className="text-gray-600 mt-4 leading-relaxed">
-            My journey started in 2015, and since then, I’ve built numerous
-            projects, overcoming challenges and learning new tech. From **React,
-            TypeScript, Tailwind** to **MongoDB, GraphQL**, and more, I keep
-            pushing my limits.
+          I specialize in both front-end and back-end development, ensuring seamless user experiences and efficient system architectures. My expertise includes API development, database optimization, DevOps practices, and real-time data visualization. Beyond coding, I am actively involved in tech communities, open-source projects, and content creation to share knowledge and grow professionally.
           </p>
           <p className="text-gray-600 mt-4 leading-relaxed">
-            Beyond coding, I share insights on **Twitter** and **GitHub** about
-            web development, open-source projects, and industry trends.
+          I aim to build impactful digital solutions that enhance user engagement and business efficiency. Whether through innovative web applications, data-driven insights, or automation, I am committed to leveraging technology to solve real-world problems. My goal is to continuously learn, collaborate, and contribute to the tech ecosystem.
           </p>
         </div>
       </div>

@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { FaDownload, FaBars, FaTimes } from "react-icons/fa";
 
@@ -6,7 +5,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="w-full bg-gray-100  shadow-md px-6 md:px-16 lg:px-24 py-4 flex justify-between items-center font-mono fixed top-0 z-50 left-0 right-0 border-b-2 border-gray-200  backdrop-opacity-70 ">
+    <nav className="w-full bg-white/30 shadow-md px-6 md:px-16 lg:px-24 py-6 flex justify-between items-center font-mono fixed top-0 z-50 left-0 right-0  backdrop-blur backdrop-opacity-100 rounded-lg mx-4 my-4">
       {/* Left: Logo */}
       <div className="flex items-center space-x-2">
         <span className="text-2xl font-bold">👽</span>
@@ -14,18 +13,18 @@ const Navbar = () => {
       </div>
 
       {/* Middle: Navigation Links */}
-      <div className="hidden md:flex space-x-6 text-gray-700 font-medium">
-        <a href="#about" className="hover:text-black">About Me</a>
-        <a href="#skills" className="hover:text-black">Skills</a>
-        <a href="#projects" className="hover:text-black">Projects</a>
-        <a href="#Contact" className="hover:text-black">Contact Me</a>
+      <div className="hidden md:flex space-x-6 text-black font-medium">
+        <a href="#about" className="hover:text-gray-500">About Me</a>
+        <a href="#skills" className="hover:text-gray-500">Skills</a>
+        <a href="#projects" className="hover:text-gray-500">Projects</a>
+        <a href="#Contact" className="hover:text-gray-500">Contact Me</a>
       </div>
 
       {/* Right: Resume Button */}
       <a
         href="/resume.pdf"
         download
-        className="hidden md:flex items-center space-x-2 bg-black text-white px-4 py-2 rounded-md font-medium transition duration-300 hover:bg-white hover:text-black border-2 border-black hover:border-white"
+        className="hidden md:flex items-center space-x-2 bg-black text-white px-4 py-2 rounded-md font-medium transition duration-300 hover:bg-gray-500 hover:text-black border-2 border-black hover:border-black"
         onClick={() => setIsOpen(false)}
       >
         <span>Resume</span> <FaDownload />
@@ -60,5 +59,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
 
