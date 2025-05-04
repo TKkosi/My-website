@@ -22,7 +22,7 @@ import img1 from "../assets/img1.svg";
 
 const About = () => {
   return (
-    <section className="py-16 px-6 md:px-16 lg:px-24 xl:px-32 bg-white font-mono">
+    <section className="py-16 px-6 md:px-16 lg:px-24 xl:px-32 bg-white font-mono" id="about">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         {/* Left - Image */}
         <div className="flex justify-center">
@@ -39,7 +39,7 @@ const About = () => {
             About <span className="text-black">Me</span>
           </h2>
           <p className="text-gray-600 mt-4 leading-relaxed">
-          I am a passionate Full-Stack Developer with experience in designing and implementing scalable web applications. With a strong foundation in JavaScript, React, Node.js, and MongoDB, I thrive in solving complex problems and building high-performance solutions.
+          I am a passionate Full-Stack Developer with experience in designing and implementing scalable web applications. With a strong foundation in JavaScript, React.js, Node.js, and MongoDB, I thrive in solving complex problems and building high-performance solutions.
           </p>
           <p className="text-gray-600 mt-4 leading-relaxed">
           I specialize in both front-end and back-end development, ensuring seamless user experiences and efficient system architectures. My expertise includes API development, database optimization, DevOps practices, and real-time data visualization. Beyond coding, I am actively involved in tech communities, open-source projects, and content creation to share knowledge and grow professionally.

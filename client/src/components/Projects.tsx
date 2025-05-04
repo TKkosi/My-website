@@ -31,7 +31,7 @@ const projects = [
 const Projects = () => {
 
   return (
-    <section className="py-12 px-6 md:px-16 lg:px-24 xl:px-32 bg-black text-white font-mono">
+    <section className="py-12 px-6 md:px-16 lg:px-24 xl:px-32 bg-black text-white font-mono" id="projects">
       <h2 className="text-3xl md:text-4xl font-extralight text-center mb-8">
         My <span className="text-gray-300 font-extrabold">Projects</span>
       </h2>

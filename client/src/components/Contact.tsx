@@ -19,7 +19,7 @@ import { FaFacebook, FaInstagram, FaTwitter, FaGithub } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <section className="w-full px-6 md:px-16 lg:px-24 py-12 font-mono">
+    <section className="w-full px-6 md:px-16 lg:px-24 py-12 font-mono" id="contact">
       <div className="flex flex-col md:flex-row items-center justify-between gap-12">
         {/* Left: Contact Form */}
         <div className="w-full md:w-1/2">

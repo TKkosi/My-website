@@ -18,7 +18,7 @@ const Hero = () => {
 
         <p className="text-gray-600 text-sm md:text-base mt-4 leading-relaxed max-w-md">
         I'm <span className="font-semibold">Ekwuno Kosisochukwu</span>, a passionate <span className="font-bold">Full-Stack Developer</span> dedicated to building innovative and scalable digital solutions. 
-        With expertise in <span className="font-extrabold">JavaScript, React, Node.js, and MongoDB</span>,
+        With expertise in <span className="font-extrabold">JavaScript, React.js, Node.js, and MongoDB</span>,
         I thrive on solving complex problems and creating seamless user experiences. Always learning, 
         always evolving—driven by a commitment to excellence in software development. 🚀
         </p>

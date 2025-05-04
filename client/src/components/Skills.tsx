@@ -52,7 +52,7 @@ const Skills = () => {
   }, []);
 
   return (
-    <section className="text-center py-16 px-6 md:px-16 lg:px-24 xl:px-32 bg-white font-mono">
+    <section className="text-center py-16 px-6 md:px-16 lg:px-24 xl:px-32 bg-white font-mono" id="skills">
       <h2 className="text-4xl font-bold mb-8">
         My <span className="text-black font-bold">Skills</span>
       </h2>
