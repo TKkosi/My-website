@@ -12,9 +12,9 @@ const Hero = () => {
         <h2 className="text-3xl md:text-4xl font-bold">
           Full-stack <span className="border-b-4 border-black px-2">Developer</span>
         </h2>
-        <h2 className="text-3xl md:text-4xl font-bold mt-2">
+        {/* <h2 className="text-3xl md:text-4xl font-bold mt-2">
           Based In <span className="text-extrabold">Nigeria.</span>
-        </h2>
+        </h2> */}
 
         <p className="text-gray-600 text-sm md:text-base mt-4 leading-relaxed max-w-md">
         I'm <span className="font-semibold">Ekwuno Kosisochukwu</span>, a passionate <span className="font-bold">Full-Stack Developer</span> dedicated to building innovative and scalable digital solutions. 

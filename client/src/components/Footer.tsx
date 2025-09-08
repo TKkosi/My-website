@@ -10,7 +10,7 @@ const Footer = () => {
 
       {/* Right - Copyright & Credits */}
       <div className="text-center md:text-right">
-        <p>&copy; {new Date().getFullYear()} kosi</p>
+        <p>&copy; {new Date().getFullYear()} Kosi</p>
         <p className="text-gray-400">My Portfolio. All Rights Reserved.</p>
       </div>
     </footer>
