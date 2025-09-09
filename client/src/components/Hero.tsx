@@ -10,7 +10,7 @@ const Hero = () => {
           Hello, I'm <span className="text-black font-extrabold">Ekwuno Kosisochukwu</span>
         </h1>
         <h2 className="text-3xl md:text-4xl font-bold">
-          Full-stack <span className="border-b-4 border-black px-2">Developer</span>
+          Software <span className="border-b-4 border-black px-2">Enginere</span>
         </h2>
         {/* <h2 className="text-3xl md:text-4xl font-bold mt-2">
           Based In <span className="text-extrabold">Nigeria.</span>
